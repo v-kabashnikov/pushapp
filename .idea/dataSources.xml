@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3726756061">
+    <data-source source="LOCAL" name="Rails puskinhapp: development" uuid="567e53da-0ef1-407a-a924-7842d4b72e52">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:puskinhapp_development</jdbc-url>
+      <user-name>pguser</user-name>
+      <user-password>df9bdf9bdf9bdf9b</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails puskinhapp: test" uuid="fe189b5f-7956-4d3e-a1e9-134caca34c4b">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:puskinhapp_test</jdbc-url>
+      <user-name>pguser</user-name>
+      <user-password>df9bdf9bdf9bdf9b</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails puskinhapp: production" uuid="b60161e0-9f51-4208-886e-e3c17740d3b3">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:puskinhapp_production</jdbc-url>
+      <user-name>pguser</user-name>
+      <user-password>df9bdf9bdf9bdf9b</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails puskinhapp: default" uuid="97679f9f-b925-445f-8a23-3bd987461913">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:push</jdbc-url>
+      <user-name>pguser</user-name>
+      <user-password>df9bdf9bdf9bdf9b</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
