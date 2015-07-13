@@ -1,2 +1,2 @@
-class Quiz
+class Quiz < ApplicationController
 end

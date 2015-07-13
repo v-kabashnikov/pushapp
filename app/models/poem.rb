@@ -1,2 +1,2 @@
-class Poem
+class Poem < ActiveReсord::Base
 end
