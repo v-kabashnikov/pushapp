@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af12b89c-1c77-4c3d-8da4-8ba1e0e388b9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/quiz_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/quiz_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/workers/hard_worker.rb" afterPath="$PROJECT_DIR$/app/workers/hard_worker.rb" />
     </list>
     <ignored path="puskinhapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hard_worker.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="hard_worker.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/workers/hard_worker.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-              <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.13953489" vertical-offset="0" max-vertical-offset="645">
+              <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -121,10 +121,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="quiz_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="quiz_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/quiz_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20930232" vertical-offset="0" max-vertical-offset="645">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
               <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
               <folding />
             </state>
@@ -156,8 +156,8 @@
         <option value="$PROJECT_DIR$/app/controllers/quiz.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/workers/hard_worker.rb" />
         <option value="$PROJECT_DIR$/app/controllers/quiz_controller.rb" />
+        <option value="$PROJECT_DIR$/app/workers/hard_worker.rb" />
       </list>
     </option>
   </component>
@@ -850,18 +850,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/workers/hard_worker.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/quiz_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/quiz_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/workers/hard_worker.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20930232" vertical-offset="0" max-vertical-offset="645">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.13953489" vertical-offset="0" max-vertical-offset="645">
+          <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
           <folding />
         </state>
       </provider>
