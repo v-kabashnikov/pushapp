@@ -5,8 +5,13 @@ class QuizController < ApplicationController
     p = Poem.where("content like ?", "%" + "#{query}" + "%").last.title
     respond_to do |format|
 
-      format.json { render :json => {answer: p, token: Token.last.user_token, task_id: params[:id]}}
-
+      uri = URI("http://pushkin-contest.ror.by/quiz")
+      parameters = {
+          answer: p,
+          token: Token.last.user_token,
+          task_id:  params[:id]
+      }
+      Net::HTTP.post_form(uri, parameters)
     end
   end
 end
