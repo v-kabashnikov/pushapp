@@ -3,8 +3,8 @@ class QuizController < ApplicationController
   def answer
 
     respond_to do |format|
-      render :nothing => true, :status => 200, :content_type => application/json
       HardWorker.perform_async(params[:question],params[:level],params[:id])
+      render :nothing => true, :status => 200, :content_type => application/json
     end
   end
 end
