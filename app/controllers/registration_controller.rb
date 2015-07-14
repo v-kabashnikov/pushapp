@@ -3,6 +3,7 @@ class RegistrationController < ApplicationController
   def register
     respond_to do |format|
       format.json { render :json => {answer: 'снежные'}}
+      p params[:question]
     end
   end
 end

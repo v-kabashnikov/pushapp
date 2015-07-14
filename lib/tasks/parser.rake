@@ -26,6 +26,11 @@ namespace :db do
       text.gsub!(/\u0097/, "\u2014") # replacement of unprintable symbol
       text.gsub!(/^\n/, "") # remove first \n
 
+      if (text.empty? || Poem.where(content: text).any?)
+        size-=1
+        next
+      end
+
       puts "=".cyan*30
       puts title.green
       puts text.red

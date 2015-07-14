@@ -1,2 +1,2 @@
-class Poem < ActiveReсord::Base
+class Poem < ActiveRecord::Base
 end
