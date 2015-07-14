@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="af12b89c-1c77-4c3d-8da4-8ba1e0e388b9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/workers/hard_worker.rb" afterPath="$PROJECT_DIR$/app/workers/hard_worker.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="puskinhapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,8 +84,8 @@
       <file leaf-file-name="hard_worker.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/workers/hard_worker.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.55813956" vertical-offset="0" max-vertical-offset="645">
-              <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.093023255" vertical-offset="0" max-vertical-offset="645">
+              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -861,8 +860,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/workers/hard_worker.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55813956" vertical-offset="0" max-vertical-offset="645">
-          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.093023255" vertical-offset="0" max-vertical-offset="645">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
           <folding />
         </state>
       </provider>

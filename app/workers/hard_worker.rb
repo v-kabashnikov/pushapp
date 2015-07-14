@@ -3,7 +3,6 @@ class HardWorker
   sidekiq_options :retry => false
 
   def perform(question, level, task_id)
-    binding.pry
     titles = Poem.where("content LIKE :query", query: "%#{question.strip}%").select(:title)
     p = titles.first.title
     uri = URI("http://pushkin-contest.ror.by/quiz")
@@ -22,4 +21,3 @@ end
 
 
 
-  
