@@ -4,7 +4,7 @@ class HardWorker
 
   def perform(question, level, task_id)
     puts "dsds"
-    p = Poem.where("content like ?", "%" + question + "%").fist.title
+    p = Poem.where("content like ?", "%" + question + "%").last.title
     uri = URI("http://pushkin-contest.ror.by/quiz")
     parameters = {
         answer:p ,
