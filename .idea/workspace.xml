@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af12b89c-1c77-4c3d-8da4-8ba1e0e388b9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/poem.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/parser.rake" afterPath="$PROJECT_DIR$/lib/tasks/parser.rake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/puskinhapp.iml" afterPath="$PROJECT_DIR$/.idea/puskinhapp.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/quiz.rb" afterPath="$PROJECT_DIR$/app/controllers/quiz.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/registration_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/registration_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="puskinhapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/registration_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -134,7 +125,7 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/quiz.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.10843374" vertical-offset="0" max-vertical-offset="415">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -163,8 +154,8 @@
         <option value="$PROJECT_DIR$/lib/tasks/parser.rake" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/ss" />
-        <option value="$PROJECT_DIR$/app/controllers/quiz.rb" />
         <option value="$PROJECT_DIR$/app/controllers/registration_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/quiz.rb" />
       </list>
     </option>
   </component>
@@ -828,7 +819,7 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/registration_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -836,7 +827,7 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/quiz.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10843374" vertical-offset="0" max-vertical-offset="415">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
           <folding />
         </state>
       </provider>
