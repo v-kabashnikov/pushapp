@@ -18,7 +18,7 @@ default: &default
   adapter: postgresql
   encoding: unicode
   database: push
-  pool: 10
+  pool: 25
   username: pguser
   password: 1111
   # For details on connection pooling, see rails configuration guide
