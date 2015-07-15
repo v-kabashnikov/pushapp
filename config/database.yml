@@ -18,7 +18,6 @@ default: &default
   adapter: postgresql
   encoding: unicode
   database: push
-  pool: 25
   username: pguser
   password: 1111
   # For details on connection pooling, see rails configuration guide
@@ -26,6 +25,7 @@ default: &default
 
 development:
   <<: *default
+  pool: 10
   database: puskinhapp_development
   username: pguser
   password: 1111
@@ -62,6 +62,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
+  pool: 10
   database: puskinhapp_test
   username: pguser
   password: 1111
@@ -86,6 +87,7 @@ test:
 #
 production:
   <<: *default
+  pool: <%= ENV["DB_POOL"] || ENV['MAX_THREADS'] || 10 %>
   database: puskinhapp_production
   username: pguser
   password: 1111
