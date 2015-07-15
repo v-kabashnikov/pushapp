@@ -3,6 +3,7 @@ class HardWorker
   sidekiq_options :retry => false
 
   def perform(question, level, task_id)
+    ActiveRecord::Base.connection_pool.with_connection do
     titles = Poem.where("content LIKE :query", query: "%#{question.strip}%").select(:title)
     p = titles.first.title
     uri = URI("http://pushkin-contest.ror.by/quiz")
@@ -14,6 +15,7 @@ class HardWorker
     puts parameters.to_s.magenta
     r = Net::HTTP.post_form(uri, parameters)
     p r.to_s.red
+      end
   end
 end
 
